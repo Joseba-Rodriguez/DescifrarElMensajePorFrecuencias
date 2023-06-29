@@ -1,11 +1,12 @@
-# Criptoanálisis mediante análisis de frecuencias
+# Cryptanalysis using Frequency Analysis
 
-Este código Python tiene como objetivo realizar un criptoanálisis a través del análisis de frecuencias de un mensaje cifrado. El proceso se lleva a cabo en dos etapas principales:
+This Python code aims to perform cryptanalysis through frequency analysis of an encrypted message. The process is carried out in two main stages:
 
-Contar la frecuencia de cada letra en el mensaje cifrado.
-Sustituir cada letra del mensaje cifrado por la letra más común en el idioma español.
-El código comienza importando la clase Counter desde el módulo collections. Luego, se define la variable text con el mensaje cifrado. La función Counter se utiliza para contar la frecuencia de cada letra en el mensaje cifrado y el resultado se guarda en la variable letters.
+1. Counting the frequency of each letter in the encrypted message.
+2. Substituting each letter in the encrypted message with the most common letter in the Spanish language.
 
-Después, se reemplazan las letras del mensaje cifrado por las letras más comunes en el idioma español utilizando la función replace(). Cada letra del mensaje cifrado se reemplaza por la letra más común correspondiente en el idioma español. Por ejemplo, la letra "X" se reemplaza por la letra "e", ya que "e" es la letra más común en el idioma español.
+The code starts by importing the Counter class from the collections module. Then, the variable `text` is defined with the encrypted message. The Counter function is used to count the frequency of each letter in the encrypted message, and the result is saved in the `letters` variable.
 
-Finalmente, se imprime el mensaje decodificado en la pantalla.
+Next, the letters in the encrypted message are replaced with the most common letters in the Spanish language using the replace() function. Each letter in the encrypted message is replaced with the corresponding most common letter in the Spanish language. For example, the letter "X" is replaced with the letter "e" since "e" is the most common letter in the Spanish language.
+
+Finally, the decoded message is printed on the screen.
